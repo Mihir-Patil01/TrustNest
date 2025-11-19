@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.LoginController"
+            prefWidth="600" prefHeight="400">
+
+    <children>
+        <Label text="SwiftShare - AI Flat Finder" layoutX="120" layoutY="30" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+        
+        <Label text="Email:" layoutX="120" layoutY="100"/>
+        <TextField fx:id="emailField" layoutX="200" layoutY="95" prefWidth="250"/>
+        
+        <Label text="Password:" layoutX="120" layoutY="150"/>
+        <PasswordField fx:id="passwordField" layoutX="200" layoutY="145" prefWidth="250"/>
+
+        <Label text="User Type:" layoutX="120" layoutY="200"/>
+        <HBox layoutX="200" layoutY="195" spacing="20">
+            <children>
+                <ToggleGroup fx:id="userTypeGroup"/>
+                <RadioButton fx:id="passengerRadio" text="Passenger" toggleGroup="$userTypeGroup" selected="true"/>
+                <RadioButton fx:id="ownerRadio" text="Owner" toggleGroup="$userTypeGroup"/>
+            </children>
+        </HBox>
+
+        <Button fx:id="loginButton" text="Login" layoutX="200" layoutY="260" prefWidth="100" onAction="#handleLogin"/>
+        <Button fx:id="signupButton" text="Signup" layoutX="350" layoutY="260" prefWidth="100" onAction="#handleSignup"/>
+    </children>
+</AnchorPane>
+

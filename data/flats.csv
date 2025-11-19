@@ -1,0 +1,11 @@
+id,name,location,size,rooms,area,number_of_bhk,connectivity,utility,amenities,lifestyle,price
+1,Sunshine Residency,Kothrud,900,2,950,2,Excellent,High,Parking|Lift|Gym,Family,22000
+2,Blue Valley,Swargate,850,1,850,1,Good,Medium,Parking|Garden,Working,18000
+3,Skyline Apartments,Hadapsar,1200,3,1250,3,Average,High,Parking|Lift|Security,Family,26000
+4,Elite Homes,Baner,1100,2,1150,2,Excellent,High,Parking|Gym|Pool|Lift,Family,30000
+5,Green Leaf Residency,Shivajinagar,700,1,750,1,Good,Medium,Garden|Security,Working,15000
+6,Urban View Apartments,Camp,950,2,1000,2,Excellent,High,Parking|Lift|Garden|Gym,Family,27000
+7,Metro Heights,Kharadi,1400,3,1450,3,Excellent,High,Parking|Lift|Gym|Pool,Family,35000
+8,Comfort Nest,Wakad,800,1,820,1,Good,Medium,Parking|Garden|Security,Working,17000
+9,Silver Springs,Deccan,1000,2,1020,2,Excellent,High,Parking|Lift|Gym|Security,Family,25000
+10,Budget Stay,Swargate,600,1,620,1,Average,Low,Parking|Garden,Student,12000
